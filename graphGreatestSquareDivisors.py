@@ -87,6 +87,12 @@ def main():
   plt.plot(X,Y)
   plt.show() 
 
+  plt.ylabel('Greatest Square Divisor')
+  plt.xlabel('log scale')
+  plt.xscale('log')
+  plt.plot(X,Y)
+  plt.show() 
+
           
 if __name__ == "__main__":
   main()

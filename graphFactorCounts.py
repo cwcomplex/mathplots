@@ -47,5 +47,11 @@ def main():
  plt.plot(X, Y)
  plt.show()
 
+ plt.xscale('log')
+ plt.ylabel('Number of prime factors in factorization')
+ plt.xlabel('log scale')
+ plt.plot(X, Y)
+ plt.show()
+
 if __name__ == '__main__':
   main()
