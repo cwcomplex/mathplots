@@ -1,1 +1,4 @@
 Various silly math plots
+
+. graphFactorCounts.py - plots the number of prime factors in the factorization of +-integer x as y
+. graphGreatestSquareDivisors.py - plots the greatest square divisor of +-integer x as y
