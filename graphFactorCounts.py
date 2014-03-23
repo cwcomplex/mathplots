@@ -33,6 +33,11 @@ def main():
    print "Not enough arguments."
    sys.exit(0)
 
+ maxx = int(sys.argv[1]) + 1
+ if maxx <= 2:
+   print "Choose value >=2"
+   sys.exit(0)
+
  X = range(2, int(sys.argv[1])) 
  Y = []
  for N in X:
