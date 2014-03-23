@@ -38,7 +38,7 @@ def main():
    print "Choose value >=2"
    sys.exit(0)
 
- X = range(2, int(sys.argv[1])) 
+ X = range(2, maxx) 
  Y = []
  for N in X:
    Y.append(primesCount(N))
